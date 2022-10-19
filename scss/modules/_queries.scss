@@ -1,0 +1,53 @@
+.Spec-detail  {
+  border: 0.2em solid #18BFD4;
+  border-radius: 2em;
+  text-align: center;
+  line-height: 3em;
+  margin: 1em;
+  padding: 5em;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+.product_cat1 {
+  font-size: 1em;
+  color: #18BFD4;
+}
+
+.spec-sec {
+   
+  display: grid;
+  grid-gap: 10em;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-content: center;
+
+  .product_cat {
+    border: 6px solid #18BFD4;
+    border-radius: 2em;
+    display: grid;
+    align-content: center;
+    text-align: center;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .Spec-detail  {
+    border: 0.2em solid #18BFD4;
+    border-radius: 2em;
+    text-align: center;
+    line-height: 3em;
+    margin: 0.5em;
+    padding: 2em;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+   
+   
+
+   
+
+} 

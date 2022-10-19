@@ -1,19 +1,22 @@
 body {
-  padding: 2em;
+  padding: 0.1em;
    
   .hidden {
     display: none;
   
   }
   .header{
+    
     border-bottom: 1px solid #E2E8F0;
   }
   
   .nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 8em;
+    padding-bottom: 2em;
   }
   .ham {
     display: none;
@@ -50,13 +53,42 @@ body {
     
   }
   .nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
+    width: 6%;
+    padding: 1.5em;
+    margin-left: 0.9em;
+    margin-top: -3.5em;
+    
+  }
+
+  .hero img {
+    opacity: 70%;
+    
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+  }
+  .hero p {
+    position: absolute;
+    text-align: right;
+    top: 70%;
+    left: 60%;
+    transform: translate(-10%, -60%);
+    color: #18BFD4;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+     
   }
   
   
   @media only screen and (max-width: 768px) {
+    .nav {
+      padding: 5em;
+      padding-bottom: 2em;
+    }
+    
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -94,6 +126,30 @@ body {
     .ham.active .barr:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
+
+    .nav-logo {
+      width: 6%;
+      padding: 0.1em;
+      padding-top: 0.2em;
+      
+    }
+    .hero p {
+      position: absolute;
+      text-align: right;
+      top: 50%;
+      right: -10%;
+      left: 90%;
+      transform: translate(-150%, -150%);
+      color: #18BFD4;
+      font-family: montserrat, sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+       
+    }
+
+
+     
+    
   
      
   

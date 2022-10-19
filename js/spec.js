@@ -6,10 +6,10 @@ import { getData } from "./modules/dataMiners.js";
       theSTemplate = document.querySelector("#specs").content,
       SpecData;
 
-  function buildSpec(data) {
-      SpecData = data;
+  function buildSpec(dataa) {
+      SpecData = dataa;
       
-      const thins = Object.keys(data); //Oject.keys creates an array
+      const thins = Object.keys(dataa); //Oject.keys creates an array
 
       thins.forEach(thin => {
           debugger;
@@ -20,16 +20,14 @@ import { getData } from "./modules/dataMiners.js";
           let container = panels.firstElementChild.children;
 
           //putting data into template
-          container[0].textContent = data[thins].name;
-          container[1].textContent = data[thins].color;
-          container[2].textContent = data[thins].dimensions;
-          container[3].textContent = data[thins].compatibility;
-          container[4].textContent = data[thins].display;
-          container[5].textContent = data[thins].connectivity;
-          container[6].textContent = data[thins].warranty;
-          container[7].textContent = data[thins].ratings;
-          
-          
+          container[0].textContent = dataa[thin].name;
+          container[1].textContent = dataa[thin].color;
+          container[2].textContent = dataa[thin].dimensions;
+          container[3].textContent = dataa[thin].compatibility;
+          container[4].textContent = dataa[thin].display;
+          container[5].textContent = dataa[thin].connectivity;
+          container[6].textContent = dataa[thin].warranty;
+         
           //paste the data markup into the lightbox on the page
           SpecDe.appendChild(panels);
       })

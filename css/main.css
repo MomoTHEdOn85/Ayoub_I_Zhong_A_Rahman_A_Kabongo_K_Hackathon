@@ -47,7 +47,7 @@ input {
 }
 
 body {
-  padding: 2em;
+  padding: 0.1em;
 }
 body .hidden {
   display: none;
@@ -59,7 +59,8 @@ body .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 8em;
+  padding-bottom: 2em;
 }
 body .ham {
   display: none;
@@ -89,11 +90,34 @@ body .nav-menu .nav-item .nav-link:hover {
   color: #482ff7;
 }
 body .nav-logo {
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #482ff7;
+  width: 6%;
+  padding: 1.5em;
+  margin-left: 0.9em;
+  margin-top: -3.5em;
+}
+body .hero img {
+  opacity: 70%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .hero p {
+  position: absolute;
+  text-align: right;
+  top: 70%;
+  left: 60%;
+  transform: translate(-10%, -60%);
+  color: #18BFD4;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
 }
 @media only screen and (max-width: 768px) {
+  body .nav {
+    padding: 5em;
+    padding-bottom: 2em;
+  }
   body .nav-menu {
     position: fixed;
     left: -100%;
@@ -124,5 +148,172 @@ body .nav-logo {
   }
   body .ham.active .barr:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  body .nav-logo {
+    width: 6%;
+    padding: 0.1em;
+    padding-top: 0.2em;
+  }
+  body .hero p {
+    position: absolute;
+    text-align: right;
+    top: 50%;
+    right: -10%;
+    left: 90%;
+    transform: translate(-150%, -150%);
+    color: #18BFD4;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+
+.Spec-detail {
+  border: 0.2em solid #18BFD4;
+  border-radius: 2em;
+  text-align: center;
+  line-height: 3em;
+  margin: 1em;
+  padding: 5em;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.product_cat1 {
+  font-size: 1em;
+  color: #18BFD4;
+}
+
+.spec-sec {
+  display: grid;
+  grid-gap: 10em;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-content: center;
+}
+.spec-sec .product_cat {
+  border: 6px solid #18BFD4;
+  border-radius: 2em;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .Spec-detail {
+    border: 0.2em solid #18BFD4;
+    border-radius: 2em;
+    text-align: center;
+    line-height: 3em;
+    margin: 0.5em;
+    padding: 2em;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+main video {
+  display: grid;
+  padding: 2em;
+  width: 100%;
+  align-content: center;
+}
+main .t-f p {
+  padding: 3em;
+  color: #18BFD4;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+@media only screen and (max-width: 768px) {
+  main video {
+    padding: 2em;
+    width: 40em;
+  }
+  main .t-f p {
+    font-size: 4em;
+  }
+}
+.feat-things {
+  padding-left: 10em;
+  justify-content: space-evenly;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.feat-sec {
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+}
+.feat-sec h5 {
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  width: 10em;
+  padding: 1em;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  border: 0.2em solid #18BFD4;
+  border-radius: 1em;
+}
+
+.lightbox {
+  line-height: 5em;
+  padding: 8em;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: "regular";
+  font-size: 1em;
+  border-radius: 2em;
+}
+.lightbox img {
+  border-radius: 5em;
+  padding: 2em;
+  height: 60%;
+  width: 60%;
+}
+.lightbox p {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .lightbox {
+    padding: 4em;
+    font-size: 0.8em;
+  }
+  .lightbox img {
+    border-radius: 5em;
+    padding: 2em;
+    height: 90%;
+    width: 90%;
+  }
+  .feat-things {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .feat-sec {
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .feat-sec h5 {
+    font-size: 0.8em;
+    width: 8em;
+    padding-right: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    border: 0.2em solid #18BFD4;
+    border-radius: 1em;
   }
 }/*# sourceMappingURL=main.css.map */

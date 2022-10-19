@@ -1,6 +1,13 @@
-body {
-  h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aqua;
-  }
-}
+@import"./modules/reset.scss";
+@import"./modules/vars.scss";
+
+//mobile styles leads first
+@import"./modules/default.scss";
+
+//responsive style next
+@import"./modules/queries.scss";
+
+//then everyhting else
+@import"./modules/main.scss";
+@import"./modules/lightbox.scss";
+ 

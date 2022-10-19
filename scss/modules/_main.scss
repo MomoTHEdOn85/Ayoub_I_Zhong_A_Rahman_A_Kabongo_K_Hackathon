@@ -1,0 +1,48 @@
+main {
+  video {
+    display: grid;
+    padding: 2em;
+    width: 100%;
+    align-content: center;
+
+  }
+
+  .t-f {
+    p {
+      padding: 3em;
+      color: #18BFD4;
+      text-align: center;
+      font-family: montserrat, sans-serif;
+      font-weight: bold;
+      font-size: 5em;
+
+    }
+  }
+}
+ 
+
+@media only screen and (max-width: 768px) {
+
+
+  main {
+    video {
+      padding: 2em;
+      width: 40em;
+
+    }
+
+    .t-f {
+      p{
+        font-size: 4em;
+      }
+    }
+  }
+   
+
+   
+  
+
+   
+
+} 
+ 

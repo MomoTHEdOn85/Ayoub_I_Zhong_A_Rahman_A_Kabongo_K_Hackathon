@@ -1,6 +1,6 @@
-# Ayoub_I_Zhong_A_Rahman_A_Kabongo_K_Hackathon
+<img allign="center" src="images/thermo-nobg.png">
 
-## Assignment Description
+<h1 color="#adff2f" allign="center"> Hackathon </h1>
 
 The basis of this assignment is to create an interactive application using 3D, video, and still images.
 Design and develop an engaging experience for the end-user with which they can interact in a one-page

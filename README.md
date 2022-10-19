@@ -1,4 +1,4 @@
-<img allign="center" src="images/thermo-nobg.png">
+<img allign="center" src="images/hero-web.jpg">
 
 <h1 color="#adff2f" allign="center"> Hackathon </h1>
 

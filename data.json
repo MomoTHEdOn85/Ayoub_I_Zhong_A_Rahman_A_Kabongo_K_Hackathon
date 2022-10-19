@@ -1,1 +1,32 @@
- {}
+ {
+  "security": {
+  "camera":"Includes a wireless battery-powered HD security camera that helps you monitor your home day or night with infrared night vision. With long-lasting battery life, it runs for up to two years on two AA lithium batteries (included).",
+  "mic":"Two-Way Audio: Enables communication through a built-in microphone and speaker",
+  "history":" The continuous video feed is uploaded to the cloud where you can save 10 30 days of footage. Create Activity Zones to monitor certain areas more carefully, make and share custom clips or time lapses, browse through your feed and much more by using HouseCom™ ThermoSecurity™ System App.",
+  "pic":"thermo-secure.png"
+},
+"temprature": {
+  "hvac":"Smart thermostat with HVAC monitoring, which looks out for your heating and cooling systems; sends an alert if something doesn't seem right, along with helpful reminders to make maintenance easier.",
+  "mode":"Have fan, heat, cooler mode to allow user rest in ease.",
+  "tracking":"Usage tracking with insights: Like an energy-saving gnome inside your phone, the app will recommend actionable insights based on your usage to help reduce wasted energy",
+  "humidity":"Humidity temperature gauge features face icons to indicate DRY/COMFORT/WET air condition quickly to notify you to adjust your humidifier or dehumidifier accordingly and ensure you will always live in the most comfortable environment!",
+  "weather":"Allow users know about indoor and outdoor weather and adjust itself accordingly.",
+  "schedule":"Programmable thermostat that lets you create an energy efficient schedule in the app on your Android or iPhone. Use Schedule to create or change your appliances' schedule. When you create and stick to a schedule, you're establishing a routine. ",
+  "interface":"Control from the app: You can control the temperature from your phone no matter where you are, or turn it off when you are away; Keep pets comfortable and prevent frozen plumbing; Share the control with guests and family through the app.",
+  "pic":"thermo-nobg.png"
+},
+"control": {
+  "temprature":"Temperature sensor has built-in high-precision manufacturing sensors that can monitor temp and humidity changes accurately and stay updated.",
+  "cameras":"Get alerts on your smartphone whenever motion is detected or customize motion detection zones so you can see what matters most.",
+  "mics":"Control vloumn, recordings and clip sharing in HouseCom™ ThermoSecurity™ System App."
+},
+"setting":{
+  "languages":"Sign in to your HouseCom™ ThermoSecurity™ System account then select Settings to change the display language for your APP. You can choose English (UK), English (US), and French. ",
+  "region":"HouseCom™ ThermoSecurity™ System uses your country or region to adjust the date and give you a better experience.",
+  "schedule":"Programmable thermostat that lets you create an energy efficient schedule in the app on your Android or iPhone. Use Schedule to create or change your appliances' schedule. When you create and stick to a schedule, you're establishing a routine.",
+  "appearance":"Allow you to edit the colors, fonts, and layouts of components and other general settings.",
+  "account":"Allows you to control your account your way with customizable privacy settings.",
+  "pic":"setting-pic.png"
+}
+
+ }
